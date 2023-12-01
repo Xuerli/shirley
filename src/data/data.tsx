@@ -1,8 +1,8 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
+//   CalendarIcon,
   DownloadIcon,
-  FlagIcon,
+//   FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -12,7 +12,7 @@ import {
 import GoogleScholarIcon from '../components/Icon/GoogleScholarIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -259,17 +259,15 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'September 2023 - Now',
+    location: 'Edinburgh, UK',
+    title: 'Masters in Psychology (Convention)',
+    content: <p> I studied Psychology in part time.</p>  },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'July 2021 - June 2020',
+    location: 'School of Informatics, the University of Edinburgh',
+    title: 'PhD in Artificial Intelligence',
+    content: <p> I work on applying automated reasoning to logical theory repair. </p> },
 ];
 
 export const experience: TimelineItem[] = [
