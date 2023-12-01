@@ -262,25 +262,25 @@ export const education: TimelineItem[] = [
     date: 'September 2023 - Now',
     location: 'Edinburgh, UK',
     title: 'Masters in Psychology (Conversion)',
-    //content: <p> I studied Psychology in part time.</p>  
+    content: <p> I studied Psychology in part-time.</p>  
     },
   {
     date: 'July 2021 - June 2020',
     location: 'School of Informatics, the University of Edinburgh',
     title: 'PhD in Artificial Intelligence',
-    //content: <p> I work on applying automated reasoning to logical theory repair. </p>
+    content: <p> I work on applying automated reasoning to logical theory repair. </p>
     },
    {
     date: 'September 2011 - July 2013',
     location: 'Harbin Institute of Technology, China',
     title: 'Masters in Electronic and Communication Engineering',
-    //content: <p> I studied. </p> 
+    content: <p> I developed a software system with UI, which forecasts the power range of high-frequency surface wave radar. </p> 
    },
   {
     date: 'September 2007 - July 2011',
     location: 'Harbin University of Science and Technology, China',
     title: 'Undergraduate in Communication Engineering',
-    //content: <p> I studied. </p> 
+    content: <p> I implemented a face recognition algorithm based on machine learning based on machine learning algorithms, Discrete Cosine Transformation and Principal Component Analysis, in MATLAB. </p> 
    },
 ];
 
