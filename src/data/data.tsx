@@ -392,7 +392,7 @@ export const publications: PublicationItems[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  /*description: '',*/
+  description: '',
   items: [
     {
       type: ContactType.Email,
