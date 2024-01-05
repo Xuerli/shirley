@@ -54,9 +54,8 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
-  Resume: 'resume',
   Research: 'Research',
+  Resume: 'resume',
   Stats: 'stats',
   Testimonials: 'testimonials',
 } as const;
