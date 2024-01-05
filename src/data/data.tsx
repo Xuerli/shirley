@@ -54,8 +54,9 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Research: 'Research',
+  Portfolio: 'portfolio',
   Resume: 'resume',
+  Research: 'Research',
   Stats: 'stats',
   Testimonials: 'testimonials',
 } as const;
@@ -395,10 +396,9 @@ export const OtherActivities: TimelineItem[] = [
 
 export const publications: TimelineItem[] = [
   {
-    date: 'Dec 2023 - Now',
-    location: 'The University of Edinburgh',
     title: 'PAPER',
-    content: <p>PAPER.</p>
+    author: <p>Xue Li</p>,
+    publisher: 'The University of Edinburgh'
     },
  ];
 /**
