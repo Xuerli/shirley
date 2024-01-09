@@ -1,7 +1,7 @@
 import {FC, memo} from 'react';
 
-import {otherActivities, projects, publications, SectionId, supervision,} from '../../data/data';
-import PublicationItems from '../Layout/PublicationItems';
+import {otherActivities, projects, SectionId,} from '../../data/data';
+import ActivityItem from '../Layout/ActivityItem';
 import Section from '../Layout/Section';
 import SSSection from '../Layout/SSSection';
 import TimelineItem from '../Layout/TimelineItem';
@@ -16,19 +16,9 @@ const Research: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </SSSection>
-        <SSSection title="Supervision">
-          {supervision.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </SSSection>
         <SSSection title="Other Activities">
           {otherActivities.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </SSSection>
-        <SSSection title="Publications">
-          {publications.map((item, index) => (
-            <PublicationItems item={item} key={`${item.title}-${index}`} />
+            <ActivityItem item={item} key={`${item.title}-${index}`} />
           ))}
         </SSSection>
       </div>

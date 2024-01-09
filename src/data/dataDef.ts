@@ -83,14 +83,19 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
-
+export interface ActivityItem {
+  title:  JSX.Element;
+  date:   string;
+  content: JSX.Element;
+}
 /**
  * Research section
  */
 export interface PublicationItems {
   title: string;
-  author: JSX.Element;
+  author: string;
   publisher: string;
+  href: string;
 }
 /**
  * Testimonial section
@@ -106,14 +111,7 @@ export interface Testimonial {
   text: string;
 }
 
-/**
- * Contact section
- */
-export interface ContactSection {
-  headerText?: string;
-  description: string;
-  items: ContactItem[];
-}
+
 
 export const ContactType = {
   Email: 'Email',

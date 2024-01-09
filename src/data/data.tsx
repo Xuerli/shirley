@@ -1,6 +1,6 @@
 import {
-  AcademicCapIcon,
-//   CalendarIcon,
+  //AcademicCapIcon,
+  MailIcon,
   DownloadIcon,
 //   FlagIcon,
   MapIcon,
@@ -11,18 +11,18 @@ import GoogleScholarIcon from '../components/Icon/GoogleScholarIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import {papers} from './papers';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   HomepageMeta,
   SkillGroup,
   Social,
   TestimonialSection,
   TimelineItem,
+  ActivityItem,
   PublicationItems,
 } from './dataDef';
 
@@ -40,10 +40,10 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
   Research: 'Research',
   Resume: 'resume',
   Testimonials: 'testimonials',
+  Publications: 'publications',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -74,11 +74,6 @@ export const heroData: Hero = {
       primary: true,
       Icon: DownloadIcon,
     },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
-    },
   ],
 };
 
@@ -89,10 +84,10 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I am a postdoctoral researcher working in AI having expertise in a wide range of related areas including formal logic, natural language processing and probabilistic programming. I am passionate about engaging in both academic and industry collaborations, supervision and teaching.`,
   aboutItems: [
+    {label: 'Employment', text: 'University of Edinburgh', Icon: OfficeBuildingIcon},
+    {label: 'Email', text: 'xue.shirley.li@ed.ac.uk', Icon: MailIcon},
     {label: 'Location', text: 'Edinburgh, UK', Icon: MapIcon},
     {label: 'Interests', text: 'Reading, Jogging, Hiking, Knitting, DIY', Icon: SparklesIcon},
-    {label: 'Employment', text: 'University of Edinburgh', Icon: OfficeBuildingIcon},
-    {label: 'Study', text: 'University of Edinburgh', Icon: AcademicCapIcon},
   ],
 };
 
@@ -194,7 +189,7 @@ essential web maintenance.
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: '',
     skills: [
       {
         name: 'Mandarin',
@@ -203,57 +198,6 @@ export const skills: SkillGroup[] = [
       {
         name: 'English',
         level: 7,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -276,10 +220,11 @@ export const testimonial: TestimonialSection = {
 
 export const projects: TimelineItem[] = [
   {
+    location: 'Primary Superviser: Alan Bundy ',
     date: 'June 2016 - June 2020',
-    location: 'Superviser: Alan Bundy (Premary); Ewen Maclean; Alan Smaill; Eugene Philalithis',
     title: 'Automating theory repair',
-    content: <p>A domain-independent algorithm was developed for repairing faulty Datalog-like theories
+    content: <p>My second supervisors were Ewen Maclean (2016); Alan Smaill (2017-2019) and Eugene Philalithis (2019-2020).
+    In this project, a domain-independent algorithm was developed for repairing faulty Datalog-like theories
 by combining three existing techniques: abduction, belief revision and conceptual
 change (ABC). Based on devised mathematical models, the ABC system repairs faulty
 theories with better results than the individual techniques it combines because of its
@@ -291,121 +236,54 @@ formats.</p>
     },
   {
     date: 'Feb 2021 - Feb 2022 (Part-time)',
-    location: 'Superviser: Alan Bundy (Premary); Jeff Pan',
+    location: 'Superviser: Alan Bundy (Primary); Jeff Pan',
     title: 'TREAT',
-    content: <p>TREAT project.
+    content: <p>Extending the ABC automated repair system to address
+system failures based on the Knowledge Graphs (KG) extracted from Huawei’s 5G
+network. This research project aimed to build a never-ending learning cycle, including
+extracting triples from raw data, extending KGs with newly learned triples, assigning
+probabilities to KGs, detecting KGs' faults and repairing them. In particular, we applied the
+ABC repair system to the root-cause analysis of system failures, which detects and adds
+missing information first and then suggests solutions to repair root causes. As the
+maintenance of a large system is expensive, our work contributes to making the task
+interactive between the ABC system and domain experts.
  </p>
     },
    {
     date: 'October 2023 - April 2024',
-    location: 'Superviser: Alan Bundy (Premary)',
+    location: 'Superviser: Alan Bundy (Primary)',
     title: 'Automated theory repair in legislation revision',
-    content: <p> in autonomous vehicle. </p>
+    content: <p> Some parts of laws for human driving need to be revised for autonomous vehicles. We aim at applying automated theory repair system to assist legislation experts in this task. This project includes machine translating between original law written in English and well-formed formula in First Order Logic, identifying laws to be revised and automatically provide revised laws for experts to examine. It will reduce the workload of domain experts. </p>
    },
   {
     date: 'April 2023 - Dec 2024',
-    location: 'Superviser: Björn Ross (Premary), Vashak Belle',
+    location: 'Superviser: Björn Ross (Primary), Vashak Belle',
     title: 'Misinformation Detection via LLM',
-    content: <p> Misinformation detection in counterfactual conditional claims.</p>
+    content: <p> Current AI approaches to misinformation detection often learn to recognise paraphrases of previously seen claims. Detecting new misinformation is much harder, and linguistic cues are not enough to distinguish fact from fiction. Our approach is grounded in knowledge graphs and the logic of causality. However, this approach has its own challenges. Much of the misinformation encountered is not limited to simple factual statements that can be tested against a structured representation of knowledge but it consists of more complex claims such as counterfactual statements (e.g. “this would never have happened if…”). To address this problem, we integrate approaches from different subfields of computer science, namely, computational logic, deep learning and natural language processing.</p>
    },
 ];
 
 
 
-export const supervision: TimelineItem[] = [
-  {
-    date: 'Dec 2023 - Now',
-    location: 'Research Assistant Project',
-    title: 'Automated translating laws into FOL theories',
-    content: <p>Pak Yin Chan.</p>
-    },
-  {
-    date: 'Sep 2023 - Now',
-    location: 'Research Assistant Project',
-    title: 'Claim detection',
-    content: <p>Siyu's project.
- </p>
-    },
+export const otherActivities: ActivityItem[] = [
    {
-    date: 'Feb 2021 - Feb 2024',
-    location: 'PhD Project',
-    title: 'Knowledge base update',
-    content: <p> in autonomous vehicle. </p>
-   },
-  {
-    date: 'Feb 2021 - Feb 2024',
-    location: 'PhD Project',
-    title: 'Knowledge Graph Construction',
-    content: <p> KGC.</p>
-   },
-   {
-    date: 'Sep 2022 - Apr 2023',
-    location: 'Undergraduate Project',
-    title: 'Misinformation detection',
-    content: <p> KGC.</p>
-   },
-   {
-    date: 'June 2022 - July 2022',
-    location: 'MSc Project',
-    title: 'Extending ABC from Datalog to FOL',
-    content: <p> .</p>
-   },
-   {
-    date: 'June 2022 - July 2022',
-    location: 'MSc Project',
-    title: 'Symbolic Grounding via LLMs',
-    content: <p> .</p>
-   },
-   {
-    date: 'Feb 2022 - Aug 2022',
-    location: 'MSc Project',
-    title: 'Probablistic ABC',
-    content: <p> KGC.</p>
-   },
-];
-
-export const otherActivities: TimelineItem[] = [
-  {
+    title: <p>Guest Editor of Machine Learning Journal, Special Issue.</p>,
     date: 'Jan 2023 - Now',
-    location: 'Role: Co-organiser',
-    title: 'Organisation',
-    content: <p>CogAI 2023.</p>
+    content: <p></p>
     },
-   {
+    {
+    title: <p> Co-organiser of <a href="https://cognitive-ai.netlify.app/">the international CogAI 2023 Workshop</a> </p>,
     date: 'Jan 2023 - Now',
-    location: 'Role: Guest Editor',
-    title: '',
-    content: <p>Guest editor of Machine Learning Journal, Special Issue.</p>
+    content:<p></p>
+    },
+    {
+    title: <p>Primary or Second Supervisor of MSc and Undergraduate Projects.</p>,
+    date: 'Jan 2021 - Now',
+    content: <p></p>
     },
  ];
 
-export const publications: PublicationItems[] = [
-  {
-    title: 'PAPER',
-    author: <p>Xue Li</p>,
-    publisher: 'The University of Edinburgh'
-    },
- ];
-/**
- * Contact section
- */
-
-export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: '',
-  items: [
-    {
-      type: ContactType.Email,
-      text: 'xue.shirley.li@ed.ac.uk',
-      href: 'xue.shirley.li@ed.ac.uk',
-    },
-    {
-      type: ContactType.LinkedIn,
-      text: 'Xue Li',
-      href: 'https://www.linkedin.com/in/xue-li-318999113/',
-    },
-  ],
-};
+export const publications: PublicationItems[] = papers;
 
 /**
  * Social items

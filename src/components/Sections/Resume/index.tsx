@@ -20,7 +20,7 @@ const Resume: FC = memo(() => {
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </SSSection>
-        <SSSection title="Skills">
+        <SSSection title="Languages">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
