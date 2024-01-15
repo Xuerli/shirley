@@ -272,7 +272,7 @@ export const otherActivities: ActivityItem[] = [
     content: <p></p>
     },
     {
-    title: <p> Co-organiser of <a href="https://cognitive-ai.netlify.app/">the International CogAI 2023 Workshop</a> </p>,
+    title: <p> Co-organiser of <a href="https://cognitive-ai.netlify.app/">the International CogAI 2023 Workshop</a>. </p>,
     date: 'Jan 2023 - Now',
     content:<p></p>
     },
