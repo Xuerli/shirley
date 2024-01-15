@@ -1,5 +1,5 @@
 import {
-  //AcademicCapIcon,
+  AcademicCapIcon,
   MailIcon,
   DownloadIcon,
 //   FlagIcon,
@@ -289,7 +289,7 @@ export const publications: PublicationItems[] = papers;
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'GoogleScholar', Icon: GoogleScholarIcon, href: 'https://scholar.google.com/citations?user=Awp-a4QAAAAJ&hl=en'},
+  {label: 'GoogleScholar', Icon: AcademicCapIcon, href: 'https://www.research.ed.ac.uk/en/persons/xue-li-2'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Xuerli'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/xue-li-318999113/'},
 ];
