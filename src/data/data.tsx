@@ -7,7 +7,7 @@ import {
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
-import GoogleScholarIcon from '../components/Icon/GoogleScholarIcon';
+//import GoogleScholarIcon from '../components/Icon/GoogleScholarIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
