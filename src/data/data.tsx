@@ -82,7 +82,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a postdoctoral researcher working in AI having expertise in a wide range of related areas including formal logic, natural language processing and probabilistic programming. I am passionate about engaging in both academic and industry collaborations, supervision and teaching.`,
+  description: `I am a postdoctoral researcher working in AI having expertise in a wide range of related areas including formal logic, automated reasoning and natural language processing. I am passionate about engaging in both academic and industry collaborations, supervision and teaching.`,
   aboutItems: [
     {label: 'Employment', text: 'University of Edinburgh', Icon: OfficeBuildingIcon},
     {label: 'Email', text: 'xue.shirley.li@ed.ac.uk', Icon: MailIcon},
@@ -96,7 +96,7 @@ export const education: TimelineItem[] = [
   {
     date: 'September 2023 - Now',
     location: 'Edinburgh, UK',
-    title: 'Masters in Psychology (Conversion)',
+    title: 'Masters in Psychology (Conversion, Part-time)',
     content: <p> I am studying Psychology in part-time.</p>
     },
   {
