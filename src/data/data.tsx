@@ -223,21 +223,18 @@ export const testimonial: TestimonialSection = {
 
 
 export const projects: TimelineItem[] = [
+   {
+    date: 'October 2023 - April 2024',
+    location: 'Superviser: Alan Bundy (Primary)',
+    title: 'Automated theory repair in legislation revision',
+    content: <p> Some parts of laws for human driving need to be revised for autonomous vehicles. We aim at applying automated theory repair system to assist legislation experts in this task. This project includes machine translating between original law written in English and well-formed formula in First Order Logic, identifying laws to be revised and automatically provide revised laws for experts to examine. It will reduce the workload of domain experts. </p>
+   },
   {
-    location: 'Primary Superviser: Alan Bundy ',
-    date: 'June 2016 - June 2020',
-    title: 'Automating theory repair',
-    content: <p>My second supervisors were Ewen Maclean (2016); Alan Smaill (2017-2019) and Eugene Philalithis (2019-2020).
-    In this project, a domain-independent algorithm was developed for repairing faulty Datalog-like theories
-by combining three existing techniques: abduction, belief revision and conceptual
-change (ABC). Based on devised mathematical models, the ABC system repairs faulty
-theories with better results than the individual techniques it combines because of its
-various operations: 1) add/delete axioms; 2) add/delete preconditions from rules; 3)
-change the language of the theory. Furthermore, ABC has wide applications, e.g.
-modelling game theory by abductively explaining given observations; root-cause
-analysis in system maintenance, and it has the potential to be extended to data in other
-formats.</p>
-    },
+    date: 'April 2023 - June 2023', 'April 2024 - December 2024'
+    location: 'Superviser: Björn Ross (Primary), Vashak Belle',
+    title: 'Misinformation Detection via LLM',
+    content: <p> Current AI approaches to misinformation detection often learn to recognise paraphrases of previously seen claims. Detecting new misinformation is much harder, and linguistic cues are not enough to distinguish fact from fiction. Our approach is grounded in knowledge graphs and the logic of causality. However, this approach has its own challenges. Much of the misinformation encountered is not limited to simple factual statements that can be tested against a structured representation of knowledge but it consists of more complex claims such as counterfactual statements (e.g. “this would never have happened if…”). To address this problem, we integrate approaches from different subfields of computer science, namely, computational logic, deep learning and natural language processing.</p>
+   },
   {
     date: 'Feb 2021 - Feb 2022 (Part-time)',
     location: 'Superviser: Alan Bundy (Primary); Jeff Pan',
@@ -253,18 +250,22 @@ maintenance of a large system is expensive, our work contributes to making the t
 interactive between the ABC system and domain experts.
  </p>
     },
-   {
-    date: 'October 2023 - April 2024',
-    location: 'Superviser: Alan Bundy (Primary)',
-    title: 'Automated theory repair in legislation revision',
-    content: <p> Some parts of laws for human driving need to be revised for autonomous vehicles. We aim at applying automated theory repair system to assist legislation experts in this task. This project includes machine translating between original law written in English and well-formed formula in First Order Logic, identifying laws to be revised and automatically provide revised laws for experts to examine. It will reduce the workload of domain experts. </p>
-   },
+
   {
-    date: 'April 2023 - Dec 2024',
-    location: 'Superviser: Björn Ross (Primary), Vashak Belle',
-    title: 'Misinformation Detection via LLM',
-    content: <p> Current AI approaches to misinformation detection often learn to recognise paraphrases of previously seen claims. Detecting new misinformation is much harder, and linguistic cues are not enough to distinguish fact from fiction. Our approach is grounded in knowledge graphs and the logic of causality. However, this approach has its own challenges. Much of the misinformation encountered is not limited to simple factual statements that can be tested against a structured representation of knowledge but it consists of more complex claims such as counterfactual statements (e.g. “this would never have happened if…”). To address this problem, we integrate approaches from different subfields of computer science, namely, computational logic, deep learning and natural language processing.</p>
-   },
+    location: 'Primary Superviser: Alan Bundy ',
+    date: 'June 2016 - June 2020',
+    title: 'Automating theory repair',
+    content: <p>My second supervisors were Ewen Maclean (2016); Alan Smaill (2017-2019) and Eugene Philalithis (2019-2020).
+    In this project, a domain-independent algorithm was developed for repairing faulty Datalog-like theories
+by combining three existing techniques: abduction, belief revision and conceptual
+change (ABC). Based on devised mathematical models, the ABC system repairs faulty
+theories with better results than the individual techniques it combines because of its
+various operations: 1) add/delete axioms; 2) add/delete preconditions from rules; 3)
+change the language of the theory. Furthermore, ABC has wide applications, e.g.
+modelling game theory by abductively explaining given observations; root-cause
+analysis in system maintenance, and it has the potential to be extended to data in other
+formats.</p>
+    },
 ];
 
 
