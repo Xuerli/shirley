@@ -101,7 +101,7 @@ export const education: TimelineItem[] = [
               such an important role in human's daily life. Better mental health support will hugely improve lots of people's well-being. 
               However, support from human experts is limited compared with the need in society. Thus, I hope to apply AI technologies to assist 
               Psychological experts for better mental health support. To make a better combination of AI with Psychology, I decided to take this 
-              MSc course to learn the knowledge from the filed of Psychology. </p>
+              MSc course to learn the knowledge from the field of Psychology. </p>
     },
   {
     date: 'July 2021 - June 2020',
