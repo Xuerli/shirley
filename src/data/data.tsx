@@ -97,7 +97,11 @@ export const education: TimelineItem[] = [
     date: 'September 2023 - Now',
     location: 'Edinburgh, UK',
     title: 'Masters in Psychology (Conversion, Part-time)',
-    content: <p> I am studying Psychology in part-time.</p>
+    content: <p> I am studying Psychology part-time with a scholarship from the School of Informatics, the University of Edinburgh. Mental health plays 
+              such an important role in human's daily life. Better mental health support will hugely improve lots of people's well-being. 
+              However, support from human experts is limited compared with the need in society. Thus, I hope to apply AI technologies to assist 
+              Psychological experts for better mental health support. To make a better combination of AI with Psychology, I decided to take this 
+              MSc course to learn the knowledge from the filed of Psychology. </p>
     },
   {
     date: 'July 2021 - June 2020',
