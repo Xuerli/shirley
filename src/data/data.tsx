@@ -278,8 +278,8 @@ export const otherActivities: ActivityItem[] = [
     },
     {
     title: <p> Co-organiser of <a href="https://cognitive-ai.netlify.app/">the International CogAI 2023 Workshop</a>. </p>,
-    date: 'Jan 2023 - Now',
-    content:<p></p>
+    date: 'Jan 2023 - Feb2024',
+    content:<p>Together with Pablo León Villagrá, I organised the CogAI workshop in Italy. The proceedings were published by CEUR.</p>
     },
     {
     title: <p>Primary or Second Supervisor of MSc and Undergraduate Projects.</p>,
