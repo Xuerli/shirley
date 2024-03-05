@@ -253,7 +253,7 @@ interactive between the ABC system and domain experts.
 
   {
     location: 'Primary Superviser: Alan Bundy ',
-    date: 'June 2016 - June 2020',
+    date: 'June 2016 - November 2020',
     title: 'Automating theory repair',
     content: <p>My second supervisors were Ewen Maclean (2016); Alan Smaill (2017-2019) and Eugene Philalithis (2019-2020).
     In this project, a domain-independent algorithm was developed for repairing faulty Datalog-like theories
