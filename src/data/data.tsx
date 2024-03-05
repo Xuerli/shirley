@@ -104,7 +104,7 @@ export const education: TimelineItem[] = [
               MSc course to learn the knowledge from the field of Psychology. </p>
     },
   {
-    date: 'July 2016 - June 2021',
+    date: 'June 2016 - June 2021',
     location: 'School of Informatics, the University of Edinburgh',
     title: 'PhD in Artificial Intelligence',
     content: <p>A domain-independent algorithm was developed for repairing faulty Datalog-like theories
