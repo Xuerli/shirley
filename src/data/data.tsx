@@ -227,28 +227,21 @@ export const projects: TimelineItem[] = [
     date: 'October 2023 - April 2024',
     location: 'Superviser: Alan Bundy (Primary)',
     title: 'Automated theory repair in legislation revision',
-    content: <p> Some parts of laws for human driving need to be revised for autonomous vehicles. We aim at applying automated theory repair system to assist legislation experts in this task. This project includes machine translating between original law written in English and well-formed formula in First Order Logic, identifying laws to be revised and automatically provide revised laws for experts to examine. It will reduce the workload of domain experts. </p>
+    content: <p> I supervised two Research Assistants and we conducted case studies on the application of the ABC repair system, an AI theory repair tool, to assist in constructing laws for autonomous vehicles (AVs) and adapting the system design of AVs to respect corresponding laws based on AVs’ simulations.
+ </p>
    },
   {
     date: 'April 2022 - December 2024',
     location: 'Superviser: Björn Ross (Primary), Vashak Belle',
     title: 'Misinformation Detection via LLM',
-    content: <p> Current AI approaches to misinformation detection often learn to recognise paraphrases of previously seen claims. Detecting new misinformation is much harder, and linguistic cues are not enough to distinguish fact from fiction. Our approach is grounded in knowledge graphs and the logic of causality. However, this approach has its own challenges. Much of the misinformation encountered is not limited to simple factual statements that can be tested against a structured representation of knowledge but it consists of more complex claims such as counterfactual statements (e.g. “this would never have happened if…”). To address this problem, we integrate approaches from different subfields of computer science, namely, computational logic, deep learning and natural language processing.</p>
+    content: <p> By integrating approaches from different subfields of computer science, namely, computational logic, deep learning, natural language processing and knowledge graphs (KGs), I am developing a detector to debunk misinformation on social media. Particularly, I focus on claims that involve the logic of causality. (e.g. “this would never have happened if…”).
+</p>
    },
   {
     date: 'Feb 2021 - Feb 2022 (Part-time)',
     location: 'Superviser: Alan Bundy (Primary); Jeff Pan',
     title: 'TREAT',
-    content: <p>Extending the ABC automated repair system to address
-system failures based on the Knowledge Graphs (KG) extracted from Huawei’s 5G
-network. This research project aimed to build a never-ending learning cycle, including
-extracting triples from raw data, extending KGs with newly learned triples, assigning
-probabilities to KGs, detecting KGs' faults and repairing them. In particular, we applied the
-ABC repair system to the root-cause analysis of system failures, which detects and adds
-missing information first and then suggests solutions to repair root causes. As the
-maintenance of a large system is expensive, our work contributes to making the task
-interactive between the ABC system and domain experts.
- </p>
+    content: <p> I applied the ABC repair system to the root-cause analysis of system failures, which detects and adds missing information first and then suggests solutions to repair root causes. As the maintenance of a large system is expensive, our work contributes to making the task interactive between the ABC system and domain experts. Our team also worked on automatic KG construction with probabilities. </p>
     },
 
   {
@@ -270,7 +263,13 @@ formats.</p>
 
 
 
+
 export const otherActivities: ActivityItem[] = [
+  {
+    title: <p>Guest Speaker for the course on <a href="http://www.drps.ed.ac.uk/23-24/dpt/cxefie11080.htm">Evidence, Argument and Persuasion in a Digital Age (EFI)</a>.</p>,
+    date: 'Jan 2023 - Now',
+    content: <p></p>
+    },
    {
     title: <p>Guest Editor of Machine Learning Journal, Special Issue.</p>,
     date: 'Jan 2023 - Now',
