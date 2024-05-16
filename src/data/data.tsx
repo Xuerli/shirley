@@ -266,7 +266,12 @@ formats.</p>
 
 export const otherActivities: ActivityItem[] = [
   {
-    title: <p>Guest Speaker for the course on <a href="http://www.drps.ed.ac.uk/23-24/dpt/cxefie11080.htm">Evidence, Argument and Persuasion in a Digital Age (EFI)</a>.</p>,
+    title: <p>Invited Speaker at <a href="https://www.lamda.nju.edu.cn/ijclr24/">the 4th International Joint Conference on Learning and Reasoning (IJCLR) 2024</a>.</p>,
+    date: 'Jan 2023 - Now',
+    content: <p></p>
+    },
+  {
+    title: <p>Guest Speaker at the course on <a href="http://www.drps.ed.ac.uk/23-24/dpt/cxefie11080.htm">Evidence, Argument and Persuasion in a Digital Age (EFI)</a>.</p>,
     date: 'Jan 2023 - Now',
     content: <p></p>
     },
