@@ -223,19 +223,19 @@ export const testimonial: TestimonialSection = {
 
 
 export const projects: TimelineItem[] = [
+    {
+    date: 'April 2022 - December 2024',
+    location: 'Superviser: Björn Ross (Primary), Vashak Belle',
+    title: 'Misinformation Detection via LLM',
+    content: <p> By integrating approaches from different subfields of computer science, namely, computational logic, deep learning, natural language processing and knowledge graphs (KGs), I am developing a detector to debunk misinformation on social media. Particularly, I focus on claims that involve the logic of causality. (e.g. “this would never have happened if…”).
+</p>
+   },
    {
     date: 'October 2023 - April 2024',
     location: 'Superviser: Alan Bundy (Primary)',
     title: 'Automated theory repair in legislation revision',
     content: <p> I supervised two Research Assistants and we conducted case studies on the application of the ABC repair system, an AI theory repair tool, to assist in constructing laws for autonomous vehicles (AVs) and adapting the system design of AVs to respect corresponding laws based on AVs’ simulations.
  </p>
-   },
-  {
-    date: 'April 2022 - December 2024',
-    location: 'Superviser: Björn Ross (Primary), Vashak Belle',
-    title: 'Misinformation Detection via LLM',
-    content: <p> By integrating approaches from different subfields of computer science, namely, computational logic, deep learning, natural language processing and knowledge graphs (KGs), I am developing a detector to debunk misinformation on social media. Particularly, I focus on claims that involve the logic of causality. (e.g. “this would never have happened if…”).
-</p>
    },
   {
     date: 'Feb 2021 - Feb 2022 (Part-time)',
