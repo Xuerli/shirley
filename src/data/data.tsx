@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import {papers} from './papers';
-import profilepic from '../images/profile.jpeg';
+import profilepic from '../images/profile.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
