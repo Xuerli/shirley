@@ -267,7 +267,7 @@ formats.</p>
 export const otherActivities: ActivityItem[] = [
   {
     title: <p>Invited Speaker at <a href="https://www.lamda.nju.edu.cn/ijclr24/">the 4th International Joint Conference on Learning and Reasoning (IJCLR) 2024</a>.</p>,
-    date: 'Jan 2023 - Now',
+    date: 'Sep 2024 - Sep 2024',
     content: <p></p>
     },
   {
