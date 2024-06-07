@@ -266,7 +266,7 @@ formats.</p>
 
 export const otherActivities: ActivityItem[] = [
   {
-    title: <p>Talks coordinator for <a href="https://www.turing.ac.uk/research/interest-groups/neuro-symbolic-ai">the Neuro-symbolic AI Group in the Alan Turing Institute</a>.</p>,
+    title: <p>Talks coordinator for <a href="https://www.turing.ac.uk/research/interest-groups/neuro-symbolic-ai">the Neuro-Symbolic AI Group in the Alan Turing Institute</a>.</p>,
     date: ' June 2024-  Now',
     content: <p></p>
     },
