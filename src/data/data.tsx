@@ -271,7 +271,7 @@ export const otherActivities: ActivityItem[] = [
   //   content: <p></p>
   //   },
   {
-    title: <p>Judge at <a href="https://mp.weixin.qq.com/s/y8ShvjYh2bX4daivLZFU_w">Juanhu Dream Global Entrepreneurship and Innovation Venture Competition</a>.</p>,
+    title: <p>Judge for <a href="https://mp.weixin.qq.com/s/y8ShvjYh2bX4daivLZFU_w">Juanhu Dream Global Entrepreneurship and Innovation Venture Competition</a>.</p>,
     date: ' July 2024 - July 2024',
     content: <p></p>
     },
