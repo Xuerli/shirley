@@ -265,11 +265,11 @@ formats.</p>
 
 
 export const otherActivities: ActivityItem[] = [
-    // {
-  //   title: <p>Talks coordinator for <a href="https://www.turing.ac.uk/research/interest-groups/neuro-symbolic-ai">the Neuro-Symbolic AI Group in the Alan Turing Institute</a>.</p>,
-  //   date: ' June 2024-  Now',
-  //   content: <p></p>
-  //   },
+    {
+    title: <p>Talks coordinator for <a href="https://www.turing.ac.uk/research/interest-groups/neuro-symbolic-ai">the Neuro-Symbolic AI Group in the Alan Turing Institute</a>.</p>,
+    date: ' June 2024-  Now',
+    content: <p></p>
+    },
   {
     title: <p>Judge for <a href="https://mp.weixin.qq.com/s/y8ShvjYh2bX4daivLZFU_w">Juanhu Dream Global Entrepreneurship and Innovation Venture Competition</a>.</p>,
     date: ' July 2024 - July 2024',
