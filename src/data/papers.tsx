@@ -3,9 +3,9 @@ import {PublicationItems} from './dataDef';
 
 export const papers: PublicationItems[] = [
 	{title:'MisCC: Misinformation Detection on Counterfactual Claims',
-	author: 'X Li, V Belle, B Ross', 
+	author: 'Xue Li, Vashak Belle, Björn Ross', 
         href: 'Accepted',
-publisher: 'The 4th International Joint Conference on Learning & Reasoning, 2024', 
+publisher: 'Springer Proceedings of the 4th International Joint Conference on Learning & Reasoning (IJCLR), 2024', 
 	},
 	{title: 'Assessing the Quality of a Knowledge Graph via Link Prediction Tasks', 
         author: 'Ricky Zhu, Alan Bundy, Fangrong Wang, Xue Li, Kuwabena Nuamah, Lei Xu, Stefano Mauceri, Jeff Z Pan', 
